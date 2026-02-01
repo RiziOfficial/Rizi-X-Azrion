@@ -1,0 +1,145 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rizi x Azrion — Anti Scam</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto}
+    body{
+      min-height:100vh;
+      background:radial-gradient(60% 60% at 50% 40%,#1a1a1a,#000);
+      color:#fff;
+      overflow-x:hidden;
+    }
+    header{
+      position:relative;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+    }
+    .bg{
+      position:absolute;
+      inset:0;
+      background:url('rizi-x-azrion.png') center/cover no-repeat;
+      filter:grayscale(100%) contrast(120%) brightness(70%);
+      opacity:.35;
+    }
+    .overlay{
+      position:absolute;inset:0;
+      background:linear-gradient(180deg,rgba(0,0,0,.3),#000 70%);
+    }
+    .hero{
+      position:relative;
+      z-index:2;
+      text-align:center;
+      max-width:900px;
+      animation:fadeUp .9s ease;
+    }
+    h1{
+      font-size:clamp(2.2rem,6vw,4rem);
+      letter-spacing:3px;
+      margin-bottom:12px;
+    }
+    .tag{
+      display:inline-block;
+      padding:6px 14px;
+      border:1px solid #fff3;
+      border-radius:999px;
+      margin-bottom:16px;
+      color:#ddd;
+      font-size:.9rem;
+    }
+    p{
+      color:#cfcfcf;
+      line-height:1.7;
+      margin-bottom:28px;
+    }
+    .btns{
+      display:flex;gap:14px;justify-content:center;flex-wrap:wrap
+    }
+    .btn{
+      padding:12px 28px;
+      border-radius:30px;
+      text-decoration:none;
+      font-weight:700;
+      transition:.3s;
+    }
+    .primary{background:#fff;color:#000}
+    .primary:hover{background:#ff3b3b;color:#fff}
+    .ghost{border:1px solid #fff;color:#fff}
+    .ghost:hover{background:#fff;color:#000}section{
+  padding:80px 24px;
+  max-width:1100px;
+  margin:auto;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+  margin-top:32px;
+}
+.card{
+  background:#0e0e0e;
+  border:1px solid #ffffff14;
+  border-radius:18px;
+  padding:24px;
+  transition:.3s;
+}
+.card:hover{transform:translateY(-6px);border-color:#ff3b3b55}
+.card h3{margin-bottom:10px}
+footer{
+  padding:40px 24px;
+  text-align:center;
+  color:#888;
+  border-top:1px solid #ffffff14
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="bg"></div>
+    <div class="overlay"></div>
+    <div class="hero">
+      <span class="tag">ANTI SCAM • SECURITY</span>
+      <h1>RIZI × AZRION</h1>
+      <p>Platform proteksi komunitas & bot grup untuk mencegah penipuan, spam, dan link berbahaya.</p>
+      <div class="btns">
+        <a href="#fitur" class="btn primary">Lihat Fitur</a>
+        <a href="#kontak" class="btn ghost">Kontak</a>
+      </div>
+    </div>
+  </header>  <section id="fitur">
+    <h2>Fitur Utama</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Anti-Link</h3>
+        <p>Otomatis menghapus link berbahaya tanpa kick member.</p>
+      </div>
+      <div class="card">
+        <h3>Anti-Scam</h3>
+        <p>Filter pesan penipuan & indikasi scam di grup.</p>
+      </div>
+      <div class="card">
+        <h3>Proteksi Grup</h3>
+        <p>Menjaga keamanan dan kenyamanan komunitas.</p>
+      </div>
+      <div class="card">
+        <h3>Ringan & Cepat</h3>
+        <p>Respons cepat, stabil, dan mudah dikembangkan.</p>
+      </div>
+    </div>
+  </section>  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Untuk kerja sama, pengembangan bot, atau pertanyaan lainnya.</p>
+    <div class="btns" style="margin-top:20px">
+      <a class="btn primary" href="#">WhatsApp</a>
+      <a class="btn ghost" href="#">GitHub</a>
+    </div>
+  </section>  <footer>
+    © 2026 Rizi × Azrion — Anti Scam
+  </footer>
+</body>
